@@ -1,4 +1,4 @@
-public class variables {
+public class P2_variables {
     
     /*
         variables -- container that holds the value
