@@ -10,9 +10,18 @@ public class P6_Simple_Calculator {
 
 
         System.out.print("Enter an operation to perform (+,-,*,/,%): ");
+
         char opr = s.next().charAt(0);
+    // we don't have nextChar() method. if we use string and use nextLine() it will read "+\n", which cause error in comparison.
+    // so we use next() --> reads the immediate word "+\n" and use charAt(0) to get the char at index 0 which is "+" in this example.
+
+
+
         System.out.println("first number: "+a);
         System.out.println("second number: "+b);
+
+
+
         if (opr=='+') {
             a+=b;
             System.out.println("addition: "+a);
