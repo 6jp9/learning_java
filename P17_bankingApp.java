@@ -4,7 +4,10 @@ public class P17_bankingApp {
     //      Local
     //      Class(Global)
 
-    
+    // We define this outside the main method. because we also use this outside the main method.
+    // cosider this as Global variable or Global object creation in terms of python. so that other methods can also access it.
+    // even though we opened it outside the main() method, we need to close it inside the main() method. 
+    // Cuz java mainly looks for main() and only looks outside, for methods and variables used init. 
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         Boolean flag = true;
