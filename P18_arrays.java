@@ -50,7 +50,18 @@ public class P18_arrays {
             System.out.println(s);
         }
 
-        
+        // search in array
+
+        String ele = "orange";
+
+        for(int i=0;i<arr.length;i++){
+            if(ele.equals(arr[i])){
+                System.out.println("element found at index "+i);
+            }
+            else{
+                System.out.println("Not found!");
+            }
+        }
 
     }
 
