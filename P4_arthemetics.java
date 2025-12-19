@@ -22,6 +22,9 @@ public class P4_arthemetics {
         // a++;
         // a--;
 
+        // conparations operators
+        // == compare numbers for ints and compares address for strings (compares address for reference datatypes)
+
         //  ORDER OF OPERATIONS [P - E - M - D - A - S](Please Excuse My Dumb Assness, Sorry!!)
         int a = 3+4*2-1/12;
         System.out.println(a);

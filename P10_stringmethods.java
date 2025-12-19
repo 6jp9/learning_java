@@ -36,7 +36,7 @@ public class P10_stringmethods {
         // contains() to check whether a substring in the string or not. return boolens values.
         System.out.println(s.contains(" "));
 
-        // .equals() same as ==
+        // .equals() same as "=="" in python. i.e., compares strictly values not address. in java.
         System.out.println(s.equals("Jaya Prakash")); // returns true
     }
 }
