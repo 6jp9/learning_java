@@ -37,6 +37,7 @@ public class P21_Rock_Paper_Scissor {
         }
 
         String win = valWinner(CHOICES[player-1], CHOICES[bot]);
+        System.out.println("Your pick "+CHOICES[player-1]+"\nBot pick "+CHOICES[bot]);
 
         if (win.equals("p1")) {
             ps++;
@@ -70,9 +71,6 @@ public class P21_Rock_Paper_Scissor {
     scn.close();
 }
 
-
-
-
 static String valWinner(String p, String b){
     
     if (p.equals(b)) {
@@ -83,7 +81,5 @@ static String valWinner(String p, String b){
     }
     return "b";
 }
-
-
 
 }
